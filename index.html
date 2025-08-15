@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance AI Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0078d7;
+        }
+        img, video {
+            max-width: 100%;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #0078d7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Finance AI Assistant</h1>
+    <p>Retrieval-Augmented Generation for Financial Insights</p>
+</header>
+
+<main>
+    <h2>About the Project</h2>
+    <p>
+        This project implements <strong>Retrieval-Augmented Generation (RAG)</strong> combined with the 
+        <strong>FLAN-T5</strong> language model to answer financial questions. 
+        It processes official company annual reports, a financial glossary, and recent news articles 
+        to deliver accurate and context-aware responses.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Retrieves and processes PDF annual reports (Apple, Tesla, Microsoft, Amazon, Google)</li>
+        <li>Uses FAISS vector database for efficient document retrieval</li>
+        <li>Provides financial definitions from the Investopedia glossary</li>
+        <li>Includes smart routing for financial vs. general queries</li>
+        <li>Displays performance metrics with visual charts</li>
+    </ul>
+
+    <h2>System Architecture</h2>
+    <img src="architecture_diagram.png" alt="Architecture Diagram">
+
+    <h2>Performance Metrics</h2>
+    <img src="latency_grouped.png" alt="Latency Chart">
+    <img src="latency_stacked.png" alt="Latency Breakdown">
+
+    <h2>GitHub Repository</h2>
+    <p>
+      Find the complete project code on our <a href="https://github.com/gunnelly/Financial-AI-Assistance" target="_blank">GitHub repository</a>.
+    </p>
+
+</main>
+
+<footer>
+    <p>© 2025 Finance AI Assistant | Created for Generative AI Final Project</p>
+</footer>
+
+</body>
+</html>
