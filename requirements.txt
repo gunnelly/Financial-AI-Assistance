@@ -1,0 +1,11 @@
+langchain
+faiss-cpu
+transformers
+sentence-transformers
+torch
+pandas
+numpy
+matplotlib
+PyPDF2
+pdfplumber
+tqdm

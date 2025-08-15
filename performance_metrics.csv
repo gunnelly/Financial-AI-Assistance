@@ -1,0 +1,5 @@
+Question,Retrieval Time (s),LLM Time (s),Total Time (s),Retrieved Docs
+What was Apple's total revenue in 2023?,0.14566922187805176,57.26316785812378,57.40885043144226,4
+Compare Amazon and Google's net income in 2023.,0.04412364959716797,48.47025966644287,48.51439642906189,4
+Summarize Tesla's 2023 annual report in 5 bullet points.,0.059220075607299805,122.83432006835938,122.8935604095459,4
+Explain EBITDA in simple terms.,0.053113460540771484,105.17174959182739,105.22488260269165,4

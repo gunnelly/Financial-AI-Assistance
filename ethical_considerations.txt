@@ -1,0 +1,7 @@
+
+Ethical Considerations:
+1. Source Reliability – Uses official company annual reports and reputable finance sources.
+2. Misinformation Avoidance – Model outputs are restricted to retrieved context only.
+3. Bias – Data reflects the biases present in corporate reports and selected sources.
+4. Privacy – No user data is stored or shared.
+5. Transparency – Retrieved chunks can be shown to verify responses.
